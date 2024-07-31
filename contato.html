@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
+
+<body>
+
+
+    <h1>Me envie uma mensagem!</h1>
+
+    <button><a class=home-page href="index.html"> Home</a></button>
+    <button><a class=home-page href="sobre.html"> Sobre</a></button>
+    <button><a class=home-page href="testes.html"> Experimentos feitos com HTML e CSS</a></button>
+
+    <form>
+       
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" name="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+
+        <label for="email">Email:</label>
+        <input class="emailForm" id="email" type="text" name="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+
+        <label for="mensagem">Mensagem:</label>
+        <input class="mensagemForm" type="text" name="mensagem">
+
+        <button type="submit" onclick="infoRetorno()">Enviar</button>
+    </form>
+
+    <h6 style="color:red;">Eu tentando entender o motivo de não receber nenhuma mensagem 😔:</h6>
+    <img class="stanczyk" src="assets/Jan_Matejko,_Stańczyk.jpg">
+
+    <script src="assets/javascript/scripts.js"></script>
+
+</body>
+
+</html>

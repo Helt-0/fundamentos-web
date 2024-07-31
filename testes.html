@@ -11,11 +11,12 @@
 </head>
 
 <body>
-
-    <a class=home-page href="index.html"> Home</a>
-    <a class=home-page href="sobre.html"> Sobre</a>
-
+    
     <h1> Testando algumas tags! 🫡</h1>
+
+    <button><a class=home-page href="index.html"> Home</a></button>
+    <button><a class=home-page href="sobre.html"> Sobre</a></button>
+    <button><a class=home-page href="contato.html"> Contato</a></button>
 
     <hr>
 
@@ -44,15 +45,15 @@
 
     <hr>
 
-    <h2> Tag de formulário! </h2>
+    <h2> Descubra qual o seu nome! </h2>
 
     <div class=container>
         <form>
             <label for="fname">Nome:</label><br>
-            <input type="text" value="Lucas"><br>
+            <input type="text" id="nome"><br>
             <label for="lname">Sobrenome:</label><br>
-            <input type="text" value="Vasconcelos"><br>
-            <input type="submit">
+            <input type="text" id="snome"><br>
+            <input type="submit" onclick="exibeNome()">
 
         </form>
     </div>
@@ -61,7 +62,7 @@
 
     <h2> Testando cores (com uma lista):</h2>
 
-    <ul>
+    <ul class=container>
         <li>
             <p class=lista1 style="color:blue;">Azul!</p>
         </li>
@@ -72,7 +73,7 @@
             <p class=lista1 style="color:red;">Vermelho!</p>
         </li>
         <li>
-            <p class=lista1 style="color:purple;(255, 0, 255);">Roxo!</p>
+            <p class=lista1 style="color:purple;">Roxo!</p>
         </li>
     </ul>
 
@@ -86,6 +87,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
+    <script src="assets/javascript/scripts.js"></script>
 
 </body>
 

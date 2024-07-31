@@ -6,6 +6,20 @@ p {
     display: block;
 }
 
+body{
+
+ background-color: darkgrey
+    
+}
+
+input{
+    
+    display: block;
+
+}
+
+
+
 #p-first {
 
     font-size: 32px;
@@ -77,8 +91,29 @@ p {
 .bob {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
+    padding: 24px;
     width: 380px;
+}
+
+.stanczyk{
+
+    width:100%;
+    height:100%;
+
+}
+
+.emailForm{
+
+    width: 100%;
+
+
+}
+
+.mensagemForm{
+
+    width: 100%;
+    height: 100px;
+
 }
 
 img {
